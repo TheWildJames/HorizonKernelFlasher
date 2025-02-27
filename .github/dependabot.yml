@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/"  # Root directory where build.gradle lives
+    schedule:
+      interval: "weekly"  # Runs weekly; tweak as needed
+    open-pull-requests-limit: 10
