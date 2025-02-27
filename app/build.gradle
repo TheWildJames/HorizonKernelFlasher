@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace = 'xzr.hkf'  // Add this line
     compileSdkVersion 35
     buildToolsVersion '35.0.0'
 
